@@ -12,34 +12,43 @@
             background: #2b2b2b;
             font-family: "微软雅黑 Light";
         }
-        /*.class-a-01:hover{*/
-            /*font-size:40px;*/
-            /*color: #faa8ff;*/
-        /*}*/
-        /*.class-a-01 {*/
-            /*font-size:40px;*/
-            /*color: #ff983d;*/
-        /*}*/
-
-        h1 {
-            fort-size:30px;
-            color: #4e8fff;
+        .class-h1-01 {
+            color: #ff983d;
         }
-        h2 {
-            font-size:25px;
-            color: #4e8fff;
+        /*链接无下划线*/
+        .not-underline {
+            text-decoration : none;
         }
         /*div 书写区域*/
-        .div-class-image-01 {
-            margin: 10px 10px 10px 680px;
+        .div-class-left-01 {
+            margin: 10px 10px 10px 10px;
+            float: left;
         }
+        .div-class-image-01:hover {
+            background-image: url("https://1potatostudio.github.io/image/Potato%20Studio%20logo02.png");
+            width: 60px;
+            height: 60px;
+            background-size:60px;
+            transition-duration: 100ms;
+        }
+        .div-class-image-01 {
+            margin: 10px 10px 10px 10px;
+            width: 60px;
+            height: 60px;
+            background-size:60px;
+            background-image: url("https://1potatostudio.github.io/image/Potato%20Studio%20logo.png");
+        }
+
     </style>
     <!--css 样式表结束-->
 </head>
 
 <body>
-<div class="div-class-image-01"><a href="https://1potatostudio.github.io"><img src="https://1potatostudio.github.io/image/Potato%20Studio%20logo.png" width="60" height="60"></a></div>
-<h1>欢迎</h1>
-<h2>you can see lot of things hear</h2>
+<div class="div-class-left-01">
+    <div class="div-class-image-01">
+        <a href="https://1potatostudio.github.io"><img src="https://1potatostudio.github.io/image/Potato%20Studio%20logo2.png"></a>
+    </div>
+</div>
+<div class="div-class-left-01"><a class="not-underline" href="https://1potatostudio.github.io"><h1 class="class-h1-01">Potato Studio</h1></a></div>
 </body>
 </html>
